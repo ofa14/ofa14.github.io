@@ -90,9 +90,6 @@ You can view the interactive Tableau Public dashboard for this project here:
 
 * **[Pizza Sales Analytics Dashboard on Tableau Public](https://public.tableau.com/app/profile/osama.audi/viz/Pizza_Sales_Analytics/Home)**
 
-### Dashboard Screenshots:
-*(Important: These images must be uploaded to the `pizza-sales-analytics` folder in your GitHub repository for them to appear below. The filenames must match exactly.)*
-
 ![Pizza Sales Dashboard Overview - KPIs and Trends](Home.jpg)
 *A comprehensive view of key performance indicators, hourly and weekly sales trends, and sales distribution by category and size.*
 
