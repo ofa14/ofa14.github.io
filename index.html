@@ -1,21 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+  <title>Osama Audi – Portfolio</title>
   <meta charset="UTF-8">
-  <title>Osama's Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
       text-align: center;
-      padding: 50px;
     }
     h1 {
+      margin: 0;
+    }
+    .container {
+      padding: 30px;
+    }
+    .project {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .project h2 {
+      margin-top: 0;
       color: #333;
+    }
+    .project p {
+      color: #555;
+    }
+    .project a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      background: #007acc;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 5px;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to Osama's Portfolio</h1>
-  <p>This is my first portfolio website hosted with GitHub Pages!</p>
+  <header>
+    <h1>Osama Audi – Data Analyst Portfolio</h1>
+    <p>Showcasing real-world projects in business analytics and data science</p>
+  </header>
+
+  <div class="container">
+
+    <div class="project">
+      <h2>Pizza Sales Analytics</h2>
+      <p>
+        A business case where I analyzed pizza sales using SQL and Tableau to extract insights on revenue, order trends, customer preferences, and best/worst-selling items. Interactive charts include hourly and weekly sales trends, category performance, and more.
+      </p>
+      <a href="https://public.tableau.com/app/profile/osama.audi/viz/Pizza_Sales_Analytics/Home" target="_blank">View Dashboard</a>
+    </div>
+
+    <!-- More projects will go here -->
+
+  </div>
 </body>
 </html>
+
