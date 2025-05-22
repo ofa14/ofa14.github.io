@@ -90,10 +90,10 @@ You can view the interactive Tableau Public dashboard for this project here:
 
 * **[Pizza Sales Analytics Dashboard on Tableau Public](https://public.tableau.com/app/profile/osama.audi/viz/Pizza_Sales_Analytics/Home)**
 
-![Pizza Sales Dashboard Overview - KPIs and Trends](Home.jpg)
+![Pizza Sales Dashboard Overview - KPIs and Trends](Home.png)
 *A comprehensive view of key performance indicators, hourly and weekly sales trends, and sales distribution by category and size.*
 
-![Pizza Sales Dashboard Best and Worst Sellers - Performance Details](Best_Worst_Seller.jpg)
+![Pizza Sales Dashboard Best and Worst Sellers - Performance Details](Best_Worst_Seller.png)
 *Detailed analysis showcasing the top and bottom performing pizzas across revenue, quantity, and total orders.*
 
 ---
