@@ -1,71 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Osama Audi – Portfolio</title>
-  <meta charset="UTF-8">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: #222;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    h1 {
-      margin: 0;
-    }
-    .container {
-      padding: 30px;
-    }
-    .project {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      padding: 20px;
-      margin-bottom: 20px;
-    }
-    .project h2 {
-      margin-top: 0;
-      color: #333;
-    }
-    .project p {
-      color: #555;
-    }
-    .project a {
-      display: inline-block;
-      margin-top: 10px;
-      text-decoration: none;
-      background: #007acc;
-      color: white;
-      padding: 8px 15px;
-      border-radius: 5px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osama Audi - Data Analyst Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 960px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #0056b3; /* A nice blue color */
+        }
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+        .project-list li {
+            background: #e9e9e9;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .project-list li a {
+            text-decoration: none;
+            color: #0056b3;
+            font-weight: bold;
+        }
+        .project-list li a:hover {
+            text-decoration: underline;
+        }
+        .contact-info a {
+            color: #0056b3;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Osama Audi – Data Analyst Portfolio</h1>
-    <p>Showcasing real-world projects in business analytics and data science</p>
-  </header>
+    <div class="container">
+        <h1>Osama Audi - Data Analyst Portfolio</h1>
+        <p>Welcome to my data analysis portfolio! Here you'll find a collection of my projects showcasing my skills in SQL, Tableau, Python, and more.</p>
 
-  <div class="container">
+        <h2>My Projects</h2>
+        <ul class="project-list">
+            <li>
+                <a href="./pizza-sales-analytics/README.md">Pizza Sales Analytics - SQL & Tableau Dashboard</a>
+                <p>Analysis of pizza sales data to identify key performance indicators, hourly and weekly trends, popular pizza categories, and top/bottom sellers.</p>
+            </li>
+            </ul>
 
-    <div class="project">
-      <h2>Pizza Sales Analytics</h2>
-      <p>
-        A business case where I analyzed pizza sales using SQL and Tableau to extract insights on revenue, order trends, customer preferences, and best/worst-selling items. Interactive charts include hourly and weekly sales trends, category performance, and more.
-      </p>
-      <a href="https://public.tableau.com/app/profile/osama.audi/viz/Pizza_Sales_Analytics/Home" target="_blank">View Dashboard</a>
+        <h2>About Me</h2>
+        <p>
+            I am an aspiring Data Analyst with a passion for transforming raw data into actionable insights. I have experience in data cleaning, analysis, and visualization using SQL, Tableau, and Python. I am eager to apply my analytical skills to real-world problems and contribute to data-driven decision-making.
+        </p>
+        <p class="contact-info">
+            Feel free to connect with me on:
+            <a href="https://linkedin.com/in/your-linkedin-profile">LinkedIn</a> |
+            <a href="https://github.com/ofa14">GitHub</a> |
+            <a href="mailto:your.email@example.com">Email</a>
+        </p>
     </div>
-
-    <!-- More projects will go here -->
-
-  </div>
 </body>
 </html>
-
