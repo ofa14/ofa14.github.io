@@ -57,26 +57,15 @@ Based on the analysis of the pizza sales data, the following key performance ind
 
 The interactive dashboards provided deeper insights into various sales trends and patterns:
 
-* **Hourly Trend for Total Pizzas Sold:**
-    The analysis of hourly sales shows distinct peak periods. Orders surge between **12:00 PM and 1:00 PM (lunch rush)** and again from **4:00 PM to 7:00 PM (evening/dinner rush)**. This insight is crucial for optimizing staffing and resource allocation during these high-demand times.
-
-* **Weekly Trend for Total Orders:**
-    There are notable fluctuations in total orders throughout the year. A significant peak in order activity is observed during the **second week of January**. This could suggest seasonal factors, holiday impacts, or specific marketing campaigns that drove sales during that period.
-
-* **Percentage of Sales by Pizza Category:**
-    The **Classic category** is the leading revenue generator, contributing **26.91% ($193.69K)** of total sales. The **Supreme category** closely follows with **25.46% ($208.20K)**. Chicken and Veggie categories also make substantial contributions, indicating a diverse customer base for different pizza types.
-
-* **Percentage of Sales by Pizza Size:**
-    **Large pizzas** are by far the most preferred size, accounting for a dominant **45.9%** of all sales. Medium and Regular sizes constitute the next largest portions. This clear preference for larger sizes should inform pricing strategies and inventory management.
-
-* **Total Pizzas Sold by Pizza Category:**
-    In terms of sheer quantity, **Classic pizzas** are the most sold with **10,859 units**, followed by **Supreme** with **9,083 units**. This aligns with their high revenue contribution, reinforcing their popularity.
-
+* **Hourly Trend for Total Pizzas Sold:** The analysis of hourly sales shows distinct peak periods. Orders surge between **12:00 PM and 1:00 PM (lunch rush)** and again from **4:00 PM to 7:00 PM (evening/dinner rush)**. This insight is crucial for optimizing staffing and resource allocation during these high-demand times.
+* **Weekly Trend for Total Orders:** There are notable fluctuations in total orders throughout the year. A significant peak in order activity is observed during the **second week of January**. This could suggest seasonal factors, holiday impacts, or specific marketing campaigns that drove sales during that period.
+* **Percentage of Sales by Pizza Category:** The **Classic category** is the leading revenue generator, contributing **26.91% ($193.69K)** of total sales. The **Supreme category** closely follows with **25.46% ($208.20K)**. Chicken and Veggie categories also make substantial contributions, indicating a diverse customer base for different pizza types.
+* **Percentage of Sales by Pizza Size:** **Large pizzas** are by far the most preferred size, accounting for a dominant **45.9%** of all sales. Medium and Regular sizes constitute the next largest portions. This clear preference for larger sizes should inform pricing strategies and inventory management.
+* **Total Pizzas Sold by Pizza Category:** In terms of sheer quantity, **Classic pizzas** are the most sold with **10,859 units**, followed by **Supreme** with **9,083 units**. This aligns with their high revenue contribution, reinforcing their popularity.
 * **Top 5 Best Sellers:**
     * **By Revenue:** The Thai Chicken Pizza ($43.4K), The Barbecue Chicken Pizza ($42.7K), The California Pizza ($41.4K), The Classic Deluxe Pizza ($38.1K), and The Spicy Italian Pizza ($34.8K) are the top revenue generators.
     * **By Quantity:** The Classic Deluxe Pizza (2.45K), The Barbecue Chicken Pizza (2.43K), The Hawaiian Pizza (2.42K), The Pepperoni Pizza (2.42K), and The Thai Chicken Pizza (2.37K) are the most frequently sold.
-    * **By Orders:** The Classic Deluxe Pizza (2,329), The Barbecue Chicken Pizza (2,280), The Hawaiian Pizza (2,278), The Pepperoni Pizza (2,273), and The Thai Chicken Pizza (2,225) also lead in total orders. The **Classic Deluxe Pizza** consistently appears as a top performer across all three metrics.
-
+    * **By Orders:** The Classic Deluxe Pizza (2,329), The Barbecue Chicken Pizza (2,280), The Hawaiian Pizza (2,278), The Pepperoni Pizza (2,273), and The Thai Chicken Pizza (2,225) also lead in total orders. The **Classic Deluxe Pizza** consistently appears as a top performer across all three metrics, highlighting its immense popularity.
 * **Bottom 5 Worst Sellers:**
     * **By Revenue:** The Brie Carre Pizza ($11.59K), The Green Garden Pizza ($13.96K), The Spinach Supreme Pizza ($15.28K), The Mediterranean Pizza ($15.36K), and The Spinach Pizza ($15.60K) are the lowest contributors to revenue.
     * **By Quantity:** The Brie Carre Pizza (490 units) is a significant outlier at the bottom, followed by The Mediterranean Pizza (934), The Calabrese Pizza (937), The Spinach Supreme Pizza (950), and The Soppressata Pizza (961).
@@ -90,10 +79,11 @@ You can view the interactive Tableau Public dashboard for this project here:
 
 * **[Pizza Sales Analytics Dashboard on Tableau Public](https://public.tableau.com/app/profile/osama.audi/viz/Pizza_Sales_Analytics/Home)**
 
+
 ![Pizza Sales Dashboard Overview - KPIs and Trends](Home.png)
 *A comprehensive view of key performance indicators, hourly and weekly sales trends, and sales distribution by category and size.*
 
-![Pizza Sales Dashboard Best and Worst Sellers - Performance Details](Best_Worst_Seller.png)
+![Pizza Sales Dashboard Best and Worst Sellers - Performance Details](Best_WorstSeller.png)
 *Detailed analysis showcasing the top and bottom performing pizzas across revenue, quantity, and total orders.*
 
 ---
@@ -116,4 +106,3 @@ The analysis provides actionable insights into the pizza sales business performa
 * **Customer Segmentation:** Analyze customer demographics or purchase history to identify distinct customer groups and tailor marketing campaigns.
 * **Promotional Effectiveness:** Study the impact of past promotions and discounts on sales to optimize future marketing efforts.
 * **Supply Chain Optimization:** Use sales data to forecast ingredient needs more accurately, reducing waste and improving freshness.
-
