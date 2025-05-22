@@ -65,7 +65,7 @@ The interactive dashboards provided deeper insights into various sales trends an
 * **Top 5 Best Sellers:**
     * **By Revenue:** The Thai Chicken Pizza ($43.4K), The Barbecue Chicken Pizza ($42.7K), The California Pizza ($41.4K), The Classic Deluxe Pizza ($38.1K), and The Spicy Italian Pizza ($34.8K) are the top revenue generators.
     * **By Quantity:** The Classic Deluxe Pizza (2.45K), The Barbecue Chicken Pizza (2.43K), The Hawaiian Pizza (2.42K), The Pepperoni Pizza (2.42K), and The Thai Chicken Pizza (2.37K) are the most frequently sold.
-    * **By Orders:** The Classic Deluxe Pizza (2,329), The Barbecue Chicken Pizza (2,280), The Hawaiian Pizza (2,278), The Pepperoni Pizza (2,273), and The Thai Chicken Pizza (2,225) also lead in total orders. The **Classic Deluxe Pizza** consistently appears as a top performer across all three metrics, highlighting its immense popularity.
+    * **By Orders:** The Classic Deluxe Pizza (2,329), The Barbecue Chicken Pizza (2,280), The Hawaiian Pizza (2,278), The Pepperoni Pizza (2,273), and The Thai Chicken Pizza (2,225) also lead in total orders. The **Classic Deluxe Pizza** consistently appears as a top performer across all three metrics.
 * **Bottom 5 Worst Sellers:**
     * **By Revenue:** The Brie Carre Pizza ($11.59K), The Green Garden Pizza ($13.96K), The Spinach Supreme Pizza ($15.28K), The Mediterranean Pizza ($15.36K), and The Spinach Pizza ($15.60K) are the lowest contributors to revenue.
     * **By Quantity:** The Brie Carre Pizza (490 units) is a significant outlier at the bottom, followed by The Mediterranean Pizza (934), The Calabrese Pizza (937), The Spinach Supreme Pizza (950), and The Soppressata Pizza (961).
@@ -79,6 +79,8 @@ You can view the interactive Tableau Public dashboard for this project here:
 
 * **[Pizza Sales Analytics Dashboard on Tableau Public](https://public.tableau.com/app/profile/osama.audi/viz/Pizza_Sales_Analytics/Home)**
 
+### Dashboard Screenshots:
+*(Important: These images are now linked using their correct `.png` file extension. They must be present in this `pizza-sales-analytics` folder.)*
 
 ![Pizza Sales Dashboard Overview - KPIs and Trends](Home.png)
 *A comprehensive view of key performance indicators, hourly and weekly sales trends, and sales distribution by category and size.*
