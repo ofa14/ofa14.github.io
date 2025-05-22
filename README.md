@@ -1,6 +1,6 @@
 # Osama Audi's Data Analyst Portfolio Repository
 
-Welcome to the GitHub repository for Osama Audi's Data Analyst Portfolio!
+Welcome to the GitHub repository for my Data Analyst Portfolio!
 
 This repository serves as the central hub for my data analysis projects and hosts my live portfolio website. Here, you'll find the code, detailed project documentation (in `README.md` files within each project folder), and assets for all my showcased work.
 
