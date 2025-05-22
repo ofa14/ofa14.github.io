@@ -15,7 +15,7 @@ The primary objective was to analyze key indicators for our pizza sales data to 
 * **Average Order Value:** The average amount spent per order, calculated by dividing the total revenue by the total number of orders.
 * **Total Pizzas Sold:** The sum of the quantities of all pizzas sold.
 * **Total Orders:** The total number of orders placed.
-* **Average Pizzas Per Order:** The average number of pizzas sold per order, calculated by dividing the total number of pizzas sold by the total number of orders.
+* **Average Pizzas Per Order:** The average number of pizzas sold by the total number of orders.
 
 **Visualization Requirements:**
 * **Hourly Trend for Total Pizzas Sold:** Stacked bar chart displaying hourly trend of total orders.
@@ -78,6 +78,7 @@ The interactive dashboards provided deeper insights into various sales trends an
 You can view the interactive Tableau Public dashboard for this project here:
 
 * **[Pizza Sales Analytics Dashboard on Tableau Public](https://public.tableau.com/app/profile/osama.audi/viz/Pizza_Sales_Analytics/Home)**
+
 
 ![Pizza Sales Dashboard Overview - KPIs and Trends](Home.png)
 *A comprehensive view of key performance indicators, hourly and weekly sales trends, and sales distribution by category and size.*
