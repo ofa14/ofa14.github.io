@@ -392,7 +392,7 @@
     <section class="hero">
         <div class="container">
             <h1>Data Analyst</h1>
-            <p>Transforming data into actionable business insights</p>
+            <p>Helping businesses make smarter decisions with data</p>
             <a href="#projects" class="cta-button">View My Work</a>
         </div>
     </section>
@@ -497,7 +497,7 @@
     <section id="contact" class="contact-section">
         <div class="container">
             <h2>Get In Touch</h2>
-            <form class="contact-form">
+            <form class="contact-form" action="https://formspree.io/f/movdovkv" method="POST">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required>
@@ -515,7 +515,7 @@
             <div class="contact-info">
                 <p><strong>Email:</strong> <a href="mailto:osamafadiaudi@gmail.com">osamafadiaudi@gmail.com</a></p>
                 <p><strong>Phone:</strong> 03978882</p>
-                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/osama-audi-a0887925b" target="_blank">osama-audi-a0887925b</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/osama-audi-a0887925b" target="_blank">Osama Audi</a></p>
             </div>
         </div>
     </section>
@@ -537,9 +537,8 @@
 
         // Form submission
         document.querySelector('.contact-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your message! I will get back to you soon.');
-            this.reset();
+            // Let Formspree handle the submission naturally
+            // Remove the preventDefault and alert
         });
     </script>
 </body>
