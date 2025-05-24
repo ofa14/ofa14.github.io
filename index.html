@@ -41,12 +41,46 @@
             justify-content: space-between;
             align-items: center;
             padding: 1rem 20px;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .nav-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
         }
 
         .logo {
             font-size: 1.5rem;
             font-weight: bold;
             color: #764ba2;
+        }
+
+        .contact-info-nav {
+            font-size: 1rem;
+            color: #666;
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .contact-info-nav a {
+            color: #764ba2;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info-nav a:hover {
+            color: #5a3a7a;
+        }
+
+        .contact-info-nav i {
+            font-size: 1.1rem;
         }
 
         .nav-links {
@@ -69,7 +103,7 @@
         .hero {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 120px 0 80px;
+            padding: 140px 0 80px;
             text-align: center;
         }
 
@@ -107,8 +141,8 @@
             background: white;
         }
 
-        .section:nth-child(even) {
-            background: #f8f9ff;
+        #about {
+            background: #f8f9ff !important;
         }
 
         .section h2 {
@@ -319,30 +353,20 @@
             box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
         }
 
-        .contact-info {
-            text-align: center;
-            margin-top: 3rem;
-            padding-top: 2rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        .contact-info p {
-            margin-bottom: 1rem;
-            opacity: 0.9;
-        }
-
-        .contact-info a {
-            color: white;
-            text-decoration: none;
-        }
-
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
+            }
+
+            .contact-info-nav {
+                font-size: 0.9rem;
+                gap: 1rem;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero {
+                padding: 120px 0 60px;
             }
 
             .hero h1 {
@@ -379,13 +403,29 @@
 <body>
     <nav>
         <div class="container">
-            <div class="logo">Osama Audi's Portfolio</div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#tools">Tools</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="nav-top">
+                <div class="logo">Osama Audi's Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="contact-info-nav">
+                <a href="mailto:osamafadiaudi@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                    osamafadiaudi@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/osama-audi-a0887925b" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    Osama Audi
+                </a>
+                <a href="tel:03978882">
+                    <i class="fas fa-phone"></i>
+                    03978882
+                </a>
+            </div>
         </div>
     </nav>
 
@@ -512,11 +552,6 @@
                 </div>
                 <button type="submit" class="submit-btn">Send Message</button>
             </form>
-            <div class="contact-info">
-                <p><strong>Email:</strong> <a href="mailto:osamafadiaudi@gmail.com">osamafadiaudi@gmail.com</a></p>
-                <p><strong>Phone:</strong> 03978882</p>
-                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/osama-audi-a0887925b" target="_blank">Osama Audi</a></p>
-            </div>
         </div>
     </section>
 
@@ -537,9 +572,12 @@
 
         // Form submission
         document.querySelector('.contact-form').addEventListener('submit', function(e) {
-            // Let Formspree handle the submission naturally
-            // Remove the preventDefault and alert
+            // Let Formspree handle the submission
+            setTimeout(() => {
+                alert('Thank you for your message! I will get back to you soon.');
+            }, 100);
         });
     </script>
 </body>
 </html>
+
