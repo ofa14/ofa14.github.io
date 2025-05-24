@@ -23,6 +23,12 @@
         h1, h2 {
             color: #0056b3;
         }
+        .contact-info {
+            margin: 10px 0 30px 0;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
         .project-list {
             list-style: none;
             padding: 0;
@@ -41,19 +47,24 @@
         .project-list li a:hover {
             text-decoration: underline;
         }
-        .contact-info a {
-            color: #0056b3;
-            text-decoration: none;
-            margin-right: 15px;
-        }
-        .contact-info a:hover {
-            text-decoration: underline;
+        .project-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border-radius: 8px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Osama Audi - Data Analyst Portfolio</h1>
+
+        <div class="contact-info">
+            <p><strong>Email:</strong> osamafadiaudi@gmail.com</p>
+            <p><strong>Phone:</strong> 03978882</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/osama-audi-a0887925b" target="_blank">osama-audi-a0887925b</a></p>
+        </div>
+
         <p>Welcome to my data analysis portfolio! Here you'll find a collection of my projects showcasing my skills in SQL, Tableau, Python, and more.</p>
 
         <h2>About Me</h2>
@@ -69,23 +80,9 @@
                 <a href="https://public.tableau.com/app/profile/osama.audi/viz/Pizza_Sales_Analytics/Home" target="_blank">
                     🍕 Pizza Sales Analytics Dashboard (Tableau)
                 </a><br>
-                Key business questions answered:
-                <ul>
-                    <li>Total revenue, average order value, orders & pizza volume</li>
-                    <li>Hourly & weekly sales trends</li>
-                    <li>Category & size sales distribution</li>
-                    <li>Top & bottom 5 pizzas (by sales, quantity, and orders)</li>
-                </ul>
+                <img src="https://images.unsplash.com/photo-1601924928376-f84c18b0b8f2?auto=format&fit=crop&w=1000&q=80" alt="Pizza Sales Dashboard" class="project-image">
             </li>
         </ul>
-
-        <h2>Contact Me</h2>
-        <p class="contact-info">
-            <a href="https://www.linkedin.com/in/osama-audi-a0887925b" target="_blank">LinkedIn</a>
-            <a href="mailto:osamafadiaudi@gmail.com">Email</a>
-            <span>📞 03978882</span>
-        </p>
     </div>
 </body>
 </html>
-
