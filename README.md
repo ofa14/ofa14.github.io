@@ -14,7 +14,7 @@ You can explore my full portfolio website and see my projects in action here:
 
 ## About Me
 
-I’m a data analyst with a background in economics and a strong focus on solving real-world problems through data. I leverage tools like SQL, Python, R, Power BI, Excel, and Tableau to clean data, build insightful dashboards, and uncover actionable insights that drive smarter decisions. My practical experience includes analyzing audience trends at AUB Outlook, developing automated reporting systems at Ghassan Hammoud Hospital, and optimizing sales strategies at Cement de Sibline.
+I'm a data analyst with a background in economics and a strong focus on solving real-world problems through data. I leverage tools like SQL, Python, R, Power BI, Excel, and Tableau to clean data, build insightful dashboards, and uncover actionable insights that drive smarter decisions. My practical experience includes analyzing audience trends at AUB Outlook, developing automated reporting systems at Ghassan Hammoud Hospital, and optimizing sales strategies at Cement de Sibline.
 
 Beyond my technical work, I've actively engaged in volunteering and the Scouts. These experiences have been instrumental in developing my leadership, collaboration, and critical thinking abilities in team-based environments. Ultimately, my goal is to leverage data to create clear, actionable insights that consistently drive measurable impact.
 
@@ -27,6 +27,12 @@ Beyond my technical work, I've actively engaged in volunteering and the Scouts. 
     * `pizza-sales-analytics/README.md`: Detailed project write-up.
     * `pizza-sales-analytics/Home.png`: Screenshot of the dashboard overview.
     * `pizza-sales-analytics/Best_WorstSeller.png`: Screenshot of the best/worst seller analysis.
+* `Marketing_analytics/`: Contains all files and documentation for the Marketing Analytics project.
+    * `Marketing_analytics/README.md`: Detailed project write-up.
+    * `Marketing_analytics/Overview.png`: Screenshot of the marketing dashboard overview.
+    * `Marketing_analytics/Conversion_details.png`: Screenshot of the conversion analysis.
+    * `Marketing_analytics/social_media_details.png`: Screenshot of the social media analytics.
+    * `Marketing_analytics/customer_review_details.png`: Screenshot of the customer sentiment analysis.
 * *(Future project folders will be added here)*
 
 ---
