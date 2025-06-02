@@ -40,6 +40,7 @@ The analysis utilized multiple data sources from ShopEasy's digital platforms:
 * **DAX (Data Analysis Expressions):** Advanced calculations and KPI development
 * **Power Query:** Data transformation and preparation
 * **Data Visualization:** Interactive charts, KPI cards, and performance tracking
+* **Python:** for sentiment Analysis
 
 ---
 
